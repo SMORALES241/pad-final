@@ -28,7 +28,7 @@ class Actividad1:
 act = Actividad1()
 parametros = {"coin":"BTC","method":"ticker"}
 #url = "https://www.mercadobitcoin.net/api"
-url= "https://cat-fact.herokuapp.com"
+url= "https://dog.ceo/api/breeds/image/random"
 #datos = ingestion.obtener_datos_api(url=url, params=parametros)
 datos = act.leer_api(url=url)
 if len(datos)>0:
